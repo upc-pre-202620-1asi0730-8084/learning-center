@@ -18,6 +18,7 @@ import {
     Rating, Row, Select, SelectButton, Tag, Textarea, Toast,
     ToastService, Toolbar
 } from "primevue";
+import router from "./router.js";
 
 const primeUiLicenseKey = import.meta.env.VITE_PRIME_UI_LICENSE_KEY;
 
@@ -52,4 +53,5 @@ createApp(App)
     .component('pv-toolbar', Toolbar)
     .component('pv-toast', Toast)
     .directive('tooltip', Tooltip)
+    .use(router)
     .mount('#app')

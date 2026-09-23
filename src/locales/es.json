@@ -11,5 +11,9 @@
     "title": "Página No Encontrada",
     "content": "La ruta {unavailable-route} no está disponible.",
     "go-home": "Ir a Inicio"
+  },
+  "option": {
+    "home": "Inicio",
+    "about": "Acerca de"
   }
 }

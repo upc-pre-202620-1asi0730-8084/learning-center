@@ -15,7 +15,7 @@
     "pinia": "^4.0.3",
     "vue-i18n": "^11.4.12",
     "primevue": "^5.0.1",
-    "@primeicons/vue": "^8.0.1",
+    "primeicons": "^8.0.1",
     "primeflex": "^4.0.0",
     "@primeuix/themes": "^3.0.1"
   },
